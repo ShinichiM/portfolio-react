@@ -31,7 +31,7 @@ body {
   line-height: 1.5;
   font-size: 20px;
   color: var(--dark);
-  background-color: #f3fffee1;
+  /* background-color: #f3fffee1; */
 }
 
 h1,
@@ -98,6 +98,14 @@ nav a {
 nav a:hover {
   color: var(--secondary);
   background-color: var(--dark);
+}
+
+li {
+  list-style: none
+}
+
+ul {
+  padding: 0
 }
 
 .page-title {
@@ -272,6 +280,10 @@ nav a:hover {
 
 .w-25 {
   width: 25%;
+}
+
+.h-100-vh {
+  height: 100vh;
 }
 
 .min-100-vh {
@@ -1246,5 +1258,33 @@ nav a:hover {
 
   .align-center-xl {
     align-items: center;
+  }
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.transition-a {
+   transition: all 0.2s 
+}
+.transition-a:hover {
+  color: var(--secondary)
+}
+
+.background-dark {
+  /* background-color: var(--primary) */
+}
+
+.font-size-sm {
+  font-size: 1vw;
+}
+
+.font-size-lg {
+  font-size: 2vw;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 1200px) {
+  .header-left {
+    width: 400px
   }
 }
