@@ -3,9 +3,9 @@ import React from "react";
 const Portfolio = () => {
 
     return (
-        <div>
-            Yo this is portfolio page
-        </div>
+            <div className="h-100-vh" style={{overflow: 'hidden'}}>
+                <img className="img-background" src="/img/city.jpg"></img>
+            </div>
     );
 };
 

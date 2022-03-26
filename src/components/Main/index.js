@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 import AboutMe from '../../pages/about-me';
@@ -15,9 +15,11 @@ export const Main = (props) => {
     // console.log(pathname.split('/')[1])
     // console.log(location.pathname); 
     console.log(pathname);
-    setPage(pathname);
+    useEffect(() => {
+        setPage(pathname)
+    })
     return (
-        <div className="w-75">
+        <div className="w-75 flex-column justify-center background-light">
             {currentPage === '' ? <Home /> : ''}
             {currentPage === 'about-me' ? <AboutMe /> : ''}
             {currentPage === 'contact' ? <Contact /> : ''}

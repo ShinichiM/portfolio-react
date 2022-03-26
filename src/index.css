@@ -12,6 +12,9 @@
   --spacing-three: 1rem;
   --spacing-four: calc(1rem * 1.5);
   --spacing-five: calc(1rem * 3);
+
+  --background-one: #000;
+  --background-two: #202020;
 }
 
 * {
@@ -907,7 +910,7 @@ ul {
 
 /* col-sm */
 @media screen and (min-width: 640px) {
-  .col-sm-auto {
+  /* .col-sm-auto {
     flex-grow: 1;
     flex-basis: 0;
   }
@@ -990,11 +993,14 @@ ul {
 
   .align-center-sm {
     align-items: center;
-  }
+  } */
 }
 
 /* col-md */
 @media screen and (min-width: 768px) {
+  .d-block {
+    display: inline-block;
+  }
   .col-md-auto {
     flex-grow: 1;
     flex-basis: 0;
@@ -1083,7 +1089,7 @@ ul {
 
 /* col-lg */
 @media screen and (min-width: 992px) {
-  nav {
+  /* nav {
     width: auto;
     justify-content: flex-end;
   }
@@ -1175,12 +1181,12 @@ ul {
 
   .align-center-lg {
     align-items: center;
-  }
+  } */
 }
 
 /* col-xl */
 @media screen and (min-width: 1200px) {
-  .col-xl-1 {
+  /* .col-xl-1 {
     flex: 0 0 calc(100% * 1 / 12 - 0.5%);
   }
 
@@ -1258,7 +1264,7 @@ ul {
 
   .align-center-xl {
     align-items: center;
-  }
+  } */
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -1271,9 +1277,11 @@ ul {
 }
 
 .background-dark {
-  /* background-color: var(--primary) */
+  background-color: var(--background-one)
 }
-
+.background-light {
+  background-color: var(--background-two)
+}
 .font-size-sm {
   font-size: 1vw;
 }
@@ -1281,10 +1289,35 @@ ul {
 .font-size-lg {
   font-size: 2vw;
 }
+
+.img-background {
+  max-width: 100%;
+  max-heigth: 100%;
+  /* border-radius: 5%; */
+  /* box-shadow: 5px 5px 5px grey; */
+  border: 2px solid var(--background-one)
+}
+
+.page-container {
+  position: relative
+}
+
+.tag {
+  position: absolute;
+  top: 20%;
+  z-index: 1000;
+}
+
+.text-format {
+  font-family: 'Karla', sans-serif;
+  text-color: #D9F4F8;
+  font-weight: 700;
+  line-height: 1.25;
+}
 /* ---------------------------------------------------------------------------------------------------------------------------------------------- */
 
-@media screen and (max-width: 1200px) {
-  .header-left {
+@media screen and (max-width: 980px) {
+  /* .header-left {
     width: 400px
-  }
+  } */
 }
