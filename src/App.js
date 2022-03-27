@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+
+import { Header } from './components/Header';
+import { Main } from './components/Main';
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import AboutMe from './pages/about-me';
+import Contact from './pages/contact';
+import Portfolio from './pages/portfolio';
+import Resume from './pages/resume';
+import Home from './pages/home';
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('');
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <div className="flex-row" style={{height: 'auto'}}>
+        <Header />
+        <Routes>
+            <Route exact path="/" component={Home}/>
+            <Route exact path='/about-me' component={AboutMe} />
+            <Route exact path='/contact' component={Contact}/>
+            <Route exact path='/portfolio' component={Portfolio}/>
+            <Route exact path='/resume' component={Resume} />
+        </Routes>
+        <Main setPage={setCurrentPage} currentPage={currentPage}/>
+        </div>
+      </Router>
     </div>
   );
 }
