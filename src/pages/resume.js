@@ -8,7 +8,7 @@ const Resume = () => {
             <div style={{width: '100%'}} className="tag-resume">         
                  <div style={{height: '75vh'}} className="w-75  mx-auto project-list">
                     <div style={{'fontSize': '200%'}} className="text-format mb-4">Resume</div>
-                    <span className="text-format">Download my <a className="text-dark-bold" href="/img/resume/resume_.pdf" download='resume_.pdf'>resume</a></span>
+                    <span className="text-format background-dark">Download my <a className="text-dark-bold" href="/img/resume/resume_.pdf" download='resume_.pdf'>resume</a></span>
                     <div className="background-dark">
                         <img className="img-project" src="/img/resume/resume-retake.jpg" alt="shinichi's resume"></img>
                     </div>

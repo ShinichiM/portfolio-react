@@ -1351,10 +1351,17 @@ ul {
 }
 
 .text-dark-bold {
-  color: var(--background-one);
+  color: var(--secondary);
   bold: 70%;
 }
 
+.background-light {
+  background-color: #FFFFFF;
+}
+
+.social-media {
+  justify-content: space-between
+}
 /* ---------------------------------------------------------------------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 980px) {
