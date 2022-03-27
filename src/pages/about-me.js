@@ -15,7 +15,7 @@ return (
                         </div> 
                     </div>
                     <div style={{width: '45%'}} className="background-dark">
-                        <h1>About</h1>
+                        <h1 className="text-format">About</h1>
                         <p>Hey! I am a recent graduate from The Ohio State University with a focus in Full Stack Development! Come check out some of my work in the portfolio section</p>
                         <ul>
                             <li>Email: miyakawashi@gmail.com</li> 

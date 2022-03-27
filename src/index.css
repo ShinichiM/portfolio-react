@@ -1298,6 +1298,16 @@ ul {
   border: 2px solid var(--background-one)
 }
 
+.img-project-container {
+  /* width: 80%; */
+  height: 40%;
+}
+
+.img-project {
+  width: 100%;
+  border: 2px solid var(--background-one);
+}
+
 .page-container {
   position: relative
 }
@@ -1310,9 +1320,18 @@ ul {
 
 .text-format {
   font-family: 'Karla', sans-serif;
-  text-color: #D9F4F8;
+  color: #FFFFFF;
   font-weight: 700;
   line-height: 1.25;
+}
+
+.project-list {
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.project-list::-webkit-scrollbar {
+  display: none;
 }
 /* ---------------------------------------------------------------------------------------------------------------------------------------------- */
 
@@ -1321,3 +1340,4 @@ ul {
     width: 400px
   } */
 }
+

@@ -31,18 +31,13 @@ export const Header = () => {
         <div className="pl-5 h-100-vh w-25 flex-column justify-center background-dark">
                 <div>
                     <div>
-                        <Link className="transition-a font-size-lg"to='/'>SM</Link>
+                        <Link className="transition-a font-size-lg text-format" to='/' style={{color: '#FFFFFF'}}>SM</Link>
                     </div>
-                    <ul>
-                        <li>
-                            {/* <Link className="transition-a"to='/'>SM</Link> */}
-                            {/* <a className="transition-a" href='#'>About Me</a> */}
-                        </li>
-                    </ul>
+  
                     <ul>
                         <li>
                             <Link className="transition-a"to='/about-me'>About me </Link>
-                            {/* <a className="transition-a" href='#'>About Me</a> */}
+
                         </li>
                     </ul>
 
@@ -50,7 +45,7 @@ export const Header = () => {
                         <li>
 
                             <Link className="transition-a"to='/portfolio'>Portfolio</Link>
-                            {/* <a className="transition-a" href="#">Portfolio</a> */}
+
                         </li>
                     </ul>
                     <ul>
