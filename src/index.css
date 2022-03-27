@@ -108,7 +108,7 @@ li {
 }
 
 ul {
-  padding: 0
+  padding: 0;
 }
 
 .page-title {
@@ -1088,7 +1088,7 @@ ul {
 }
 
 /* col-lg */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 980px) {
   /* nav {
     width: auto;
     justify-content: flex-end;
@@ -1318,11 +1318,21 @@ ul {
   z-index: 1000;
 }
 
+.tag-portfolio {
+  position: absolute;
+  top: 5%;
+  z-index: 1000;
+}
+
 .text-format {
   font-family: 'Karla', sans-serif;
   color: #FFFFFF;
   font-weight: 700;
   line-height: 1.25;
+}
+
+.text-format-sm {
+  font-size: 70%
 }
 
 .project-list {
