@@ -1324,6 +1324,12 @@ ul {
   z-index: 1000;
 }
 
+.tag-resume {
+  position: absolute;
+  top: 10%;
+  z-index: 1000;
+}
+
 .text-format {
   font-family: 'Karla', sans-serif;
   color: #FFFFFF;
@@ -1343,6 +1349,12 @@ ul {
 .project-list::-webkit-scrollbar {
   display: none;
 }
+
+.text-dark-bold {
+  color: var(--background-one);
+  bold: 70%;
+}
+
 /* ---------------------------------------------------------------------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 980px) {

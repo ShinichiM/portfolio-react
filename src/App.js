@@ -9,6 +9,7 @@ import AboutMe from './pages/about-me';
 import Contact from './pages/contact';
 import Portfolio from './pages/portfolio';
 import Resume from './pages/resume';
+import Home from './pages/home';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('');
@@ -19,7 +20,7 @@ function App() {
         <div className="flex-row" style={{height: 'auto'}}>
         <Header />
         <Routes>
-            <Route exact path="/" />
+            <Route exact path="/" component={Home}/>
             <Route exact path='/about-me' component={AboutMe} />
             <Route exact path='/contact' component={Contact}/>
             <Route exact path='/portfolio' component={Portfolio}/>

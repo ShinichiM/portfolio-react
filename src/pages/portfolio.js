@@ -43,7 +43,7 @@ const Portfolio = () => {
 
     return (
             <div className="h-100-vh" style={{overflow: 'hidden'}}>
-                <img className="img-background" src="/img/city.jpg" alt="city landscape overhead"></img>
+                <img  className="img-background" src="/img/city.jpg" alt="city landscape overhead"></img>
                 <div style={{height: "80vh"}} className="tag-portfolio">
                     <h1 className="text-format ml-4">Portfolio</h1> 
                     <Project projects={projects}/>
