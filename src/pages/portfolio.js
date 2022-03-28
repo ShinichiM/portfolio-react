@@ -17,7 +17,7 @@ const Portfolio = () => {
         },
         {
             name: 'Job Hunter',
-            img: '/img/img-project/budget-tracker.jpg',
+            img: '/img/img-project/job-hunter.jpg',
             deployed: 'https://ileachy.github.io/Job-hunter/',
             github: 'https://github.com/ileachy/Job-hunter'
         },
