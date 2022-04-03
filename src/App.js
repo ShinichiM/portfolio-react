@@ -15,12 +15,12 @@ function App() {
   const [currentPage, setCurrentPage] = useState('');
 
   return (
-    <div className="App">
+    <div className="App ">
       <Router>
-        <div className="flex-row" style={{height: 'auto'}}>
+        <div className= {`flex-row img-background-${currentPage}`}  style={{height: 'auto'}}>
         <Header />
         <Routes>
-            <Route exact path="/" component={Home}/>
+            <Route exact path="/" element={<Home/>}/>
             <Route exact path='/about-me' component={AboutMe} />
             <Route exact path='/contact' component={Contact}/>
             <Route exact path='/portfolio' component={Portfolio}/>

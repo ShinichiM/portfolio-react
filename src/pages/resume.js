@@ -4,7 +4,7 @@ const Resume = () => {
 
     return (
         <div style={{overflow: 'hidden'}} className="h-100-vh page-container">
-            <img className="img-background" src="/img/resume-page.jpg" alt="city landscape overhead"></img>
+            {/* <img className="img-background" src="/img/resume-page.jpg" alt="city landscape overhead"></img> */}
             <div style={{width: '100%'}} className="tag-resume">         
                  <div style={{height: '75vh'}} className="w-75  mx-auto project-list">
                     <div style={{'fontSize': '200%'}} className="text-format mb-4">Resume</div>

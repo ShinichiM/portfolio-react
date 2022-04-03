@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 
 export const Header = () => {
     return ( 
-        <div className="pl-5 h-100-vh w-25 flex-column justify-center background-dark">
-                <div>
+        <div className="header-container">
+                <nav className="header-sub-container">
                     <div>
                         <Link className="transition-a font-size-lg text-format" to='/' style={{color: '#FFFFFF'}}>SM</Link>
                     </div> 
-                    <ul className="justify-space-between">
+                    <ul className="header-list justify-space-between">
                         <li>
-                            <Link className="transition-a"to='/about-me'>About me </Link>
+                            <Link className="transition-a" to='/about-me'>About me </Link>
                         </li>
                         <li>
                             <Link className="transition-a"to='/portfolio'>Portfolio</Link>
@@ -24,7 +24,7 @@ export const Header = () => {
                         </li>
                     </ul>
                     <Footer />
-                </div>
+                </nav>
         </div>
     )
 };

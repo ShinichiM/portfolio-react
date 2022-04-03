@@ -26,7 +26,7 @@ return (
                     </div>
                 </div>  
             </div>
-            <img className="img-background" src="/img/leafs.jpg" alt="tropic jungle forestry"></img> 
+            {/* <img className="img-background" src="/img/leafs.jpg" alt="tropic jungle forestry"></img>  */}
         </div>
     );
 };
