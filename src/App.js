@@ -18,7 +18,7 @@ function App() {
     <div className="App ">
       <Router>
         <div className= {`flex-row img-background-${currentPage}`}  style={{height: 'auto'}}>
-        <Header />
+        <Header currentPage={currentPage} setCurrentPage={setCurrentPage}/>
         <Routes>
             <Route exact path="/" element={<Home/>}/>
             <Route exact path='/about-me' component={AboutMe} />

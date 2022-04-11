@@ -25,7 +25,7 @@ export const Header = () => {
             SM
           </Link>
         </div>
-        <ul className="header-list justify-space-between mobile">
+        <ul className="header-list justify-space-between">
           <li>
             <Link className="transition-a" to="/about-me">
               About me{" "}
@@ -49,47 +49,60 @@ export const Header = () => {
         </ul>
         <Footer />
       </nav>
-{/* --------------------- mobile ----------------------  */}
-      <nav className="navbar mobile" >
-        <div>
-          <Link
-            className="transition-a font-size-scale text-format"
-            to="/"
-            style={{ color: "#FFFFFF" }}
-          >
-            SM
-          </Link>
+      {/* --------------------- mobile ----------------------  */}
+      <nav className="navbar mobile">
+        <div className="nav-container">
+          <div>
+            <Link
+              className="transition-a font-size-scale text-format"
+              to="/"
+              style={{ color: "#FFFFFF" }}
+            >
+              SM
+            </Link>
+          </div>
+          <div className={`hamburger ${hamburger}`} onClick={mobileMenu}>
+            <span className="bar"></span>
+            <span className="bar"></span>
+            <span className="bar"></span>
+          </div>
         </div>
-        <div className={`hamburger ${hamburger}`} onClick={mobileMenu}>
-          <span className="bar"></span>
-          <span className="bar"></span>
-          <span className="bar"></span>
-        </div>
+
         <ul
           className={`sidebar-menu slide-${hamburger}`}
           style={{ color: "#fff", marginRight: "auto", marginLeft: "auto" }}
         >
+          <div className='mobile-expanded'>
+            {/* <div></div> */}
+            <div className={`hamburger ${hamburger} mr-3 mt-3`} onClick={mobileMenu}>
+                <span className="bar"></span>
+                <span className="bar"></span>
+                <span className="bar"></span>
+            </div>
+          </div>
           <li>
-            <Link className="transition-a" to="/about-me">
-              About me{" "}
+            <Link className="transition-a" to="/about-me" onClick={mobileMenu}>
+              About me
             </Link>
           </li>
           <li>
-            <Link className="transition-a" to="/portfolio">
+            <Link className="transition-a" to="/portfolio" onClick={mobileMenu}>
               Portfolio
             </Link>
           </li>
           <li>
-            <Link className="transition-a" to="/contact">
+            <Link className="transition-a" to="/contact" onClick={mobileMenu}>
               Contact
             </Link>
           </li>
           <li>
-            <Link className="transition-a" to="/resume">
+            <Link className="transition-a" to="/resume" onClick={mobileMenu}>
               Resume
             </Link>
           </li>
+          <Footer />
         </ul>
+
       </nav>
     </div>
   );
