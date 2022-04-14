@@ -105,7 +105,7 @@ export const Project = (props) => {
           <img
             className="img-project"
             style={{ borderRadius: "2%" }}
-            src={projects[5].img}
+            src={projects[6].img}
             alt="note-taker-project"
           ></img>
         </div>
