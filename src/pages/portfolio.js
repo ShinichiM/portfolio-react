@@ -38,6 +38,12 @@ const Portfolio = () => {
             img: '/img/img-project/note-taker.jpg',
             deployed: 'https://nt-9000.herokuapp.com/',
             github: 'https://github.com/ShinichiM/note-taker'
+        },
+        {
+            name: "Sweeney's Seafood",
+            img: '/img/img-project/Sweeneys.jpg',
+            deployed: 'https://sweeney-seafood.herokuapp.com/',
+            github: 'https://github.com/AdamAlibraheem000/Sweeney-Seafood'
         }
     ];
 
