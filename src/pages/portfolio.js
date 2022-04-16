@@ -44,7 +44,7 @@ const Portfolio = () => {
   return (
     <div className="h-100-vh page-container" style={{ overflow: "hidden" }}>
       <div style={{ height: "80vh" }} className="tag-portfolio">
-        <h1 className="text-format w-fit-content background-dark mt-0">Projects - SM</h1>
+        <h1 className="text-format w-fit-content background-dark mt-0 text-italic px-2">Projects - SM</h1>
         <Project projects={projects} />
       </div>
     </div>
