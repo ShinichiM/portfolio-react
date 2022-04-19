@@ -926,6 +926,7 @@ ul {
 
 .project-size {
   width: 45%;
+  margin-top: 1%;
 }
 .main-width {
   width: 75%;
@@ -1178,8 +1179,8 @@ ul {
 
 /* --------------------------- background images -------------------- */
 .img-project-container {
-  /* width: 80%; */
-  height: 40%;
+  width: 100%;
+  height: 100%;
   position: relative;
 }
 .img-project-container:hover .image {
@@ -1202,6 +1203,9 @@ ul {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 9001;
   /* position: relative; */
   /* top: 60%;  */
    /* left: 50%; */
@@ -1215,7 +1219,11 @@ ul {
   font-style: italic;
   padding: 0;
   margin: 0;
-  font-size: medium;
+  color: #C2C1BB;
+  /* color: #CCCAC5; */
+  /* font-size: medium; */
+}
+.color-grey {
 }
 .img-project {
   width: 100%;
