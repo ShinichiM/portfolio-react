@@ -936,6 +936,17 @@ ul {
 
 /* col-sm */
 @media screen and (max-width: 980px) {
+  .about-me-img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .page-container {
+    height: 100vh;
+  }
+  .project-size {
+    margin-top: 5%;
+  }
   .header-container {
     display: flex;
     width: 100vw;
@@ -1086,6 +1097,13 @@ ul {
 
 /* col-xl */
 @media screen and (min-width: 980px) {
+  .about-me-img-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .about-me-content-container {
+    width: 45%;
+  }
   .header-container {
     padding-left: var(--spacing-five);
     width: 25%;
@@ -1220,8 +1238,6 @@ ul {
   padding: 0;
   margin: 0;
   color: #C2C1BB;
-  /* color: #CCCAC5; */
-  /* font-size: medium; */
 }
 .color-grey {
 }

@@ -6,7 +6,7 @@ export const Project = (props) => {
     <div className="project-list project-container">
       <div className="text-format project-size">
         <div className="img-project-container">
-          <div className="show-desc">
+          <div className="show-desc mobile-desc">
             <a href={projects[6].deployed}>
               <h4 className="desc-text">{projects[6].name}</h4>
               <p></p>
