@@ -7,22 +7,23 @@ export const Project = (props) => {
       <div className="text-format project-size">
         <div className="img-project-container">
           <div className="show-desc">
-            <a href={projects[0].deployed}>
-              <h4 className="desc-text">{projects[0].name}</h4>
+            <a href={projects[6].deployed}>
+              <h4 className="desc-text">{projects[6].name}</h4>
               <p></p>
               <p className="desc-text">
-                Deep Thoughts is an application that uses Node.js, GraphQL,
-                MongoDB, and React.js to create an interactive website for
-                people to share their thoughts and opinions on anything.
+                Sweeney's Seafood is a Seafood Bar and Grill located in Dayton,
+                Ohio. The application utilizes React.js, MongoDb, CSS3, and
+                JavaScript to provide modern day functionality to an outdated
+                website.
               </p>
             </a>
           </div>
-          <a href={projects[0].deployed}>
+          <a href={projects[6].deployed}>
             <img
               className="img-project border-radius-2 image"
-              src={projects[0].img}
-              alt="deep-thoughts-project"
-            />
+              src={projects[6].img}
+              alt="note-taker-project"
+            ></img>
           </a>
         </div>
       </div>
@@ -73,25 +74,26 @@ export const Project = (props) => {
       <div className="text-format project-size">
         <div className="img-project-container">
           <div className="show-desc">
-            <a href={projects[3].deployed}>
-              <h4 className="desc-text">{projects[3].name}</h4>
+            <a href={projects[0].deployed}>
+              <h4 className="desc-text">{projects[0].name}</h4>
               <p></p>
               <p className="desc-text">
-                Tech Blog is an application that uses Node.js, MySQL,
-                JavaScript, HTML5, and CSS3 to give users a place to share their
-                thoughts about tech!
+                Deep Thoughts is an application that uses Node.js, GraphQL,
+                MongoDB, and React.js to create an interactive website for
+                people to share their thoughts and opinions on anything.
               </p>
             </a>
           </div>
-          <a href={projects[3].deployed}>
+          <a href={projects[0].deployed}>
             <img
               className="img-project border-radius-2 image"
-              src={projects[3].img}
-              alt="tech-blog-project"
-            ></img>
+              src={projects[0].img}
+              alt="deep-thoughts-project"
+            />
           </a>
         </div>
       </div>
+
       <div className="text-format project-size">
         <div className="img-project-container">
           <div className="show-desc">
@@ -132,6 +134,28 @@ export const Project = (props) => {
               className="img-project border-radius-2 image"
               src={projects[5].img}
               alt="note-taker-project"
+            ></img>
+          </a>
+        </div>
+      </div>
+      <div className="text-format project-size">
+        <div className="img-project-container">
+          <div className="show-desc">
+            <a href={projects[3].deployed}>
+              <h4 className="desc-text">{projects[3].name}</h4>
+              <p></p>
+              <p className="desc-text">
+                Tech Blog is an application that uses Node.js, MySQL,
+                JavaScript, HTML5, and CSS3 to give users a place to share their
+                thoughts about tech!
+              </p>
+            </a>
+          </div>
+          <a href={projects[3].deployed}>
+            <img
+              className="img-project border-radius-2 image"
+              src={projects[3].img}
+              alt="tech-blog-project"
             ></img>
           </a>
         </div>
