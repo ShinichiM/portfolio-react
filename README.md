@@ -32,11 +32,11 @@
   <h3 align="center">Portfolio: Shinichi Miyakawa</h3>
 
   <p align="center">
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://shinichi-miyakawa.herokuapp.com">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/shinichiM/portfolio-react/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/shinichiM/portfolio-react/issues">Request Feature</a>
   </p>
 </div>
 
