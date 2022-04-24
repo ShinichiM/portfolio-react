@@ -2,111 +2,147 @@ import React from "react";
 
 export const Project = (props) => {
   const { projects } = props;
-  console.log(projects);
-  console.log(projects[0].name);
-
-  const displayLink = (e) => {};
   return (
-    <div
-      className="project-list justify-space-around"
-      style={{ display: "flex", flexWrap: "wrap" }}
-    >
-      <div className="text-format" style={{ width: "45%" }}>
-        <span className="background-dark px-1">
-          {projects[0].name} : <a href={projects[0].github}> Github </a> :{" "}
-          <a href={projects[2].deployed}>Deployed</a>
-        </span>
+    <div className="project-list project-container">
+      <div className="text-format project-size">
         <div className="img-project-container">
+          <a href={projects[6].deployed}>
+            <div className="show-desc mobile-desc">
+              <h4 className="desc-text">{projects[6].name}</h4>
+              <p></p>
+              <p className="desc-text">
+                Sweeney's Seafood is a Seafood Bar and Grill located in Dayton,
+                Ohio. The application utilizes React.js, MongoDb, CSS3, and
+                JavaScript to provide modern day functionality to an outdated
+                website.
+              </p>
+            </div>
+          </a>
           <img
-            className="img-project"
-            style={{ borderRadius: "2%" }}
-            src={projects[0].img}
-            alt="deep-thoughts-project"
+            className="img-project border-radius-2 image"
+            src={projects[6].img}
+            alt="note-taker-project"
           ></img>
         </div>
       </div>
-      <div className="text-format" style={{ width: "45%" }}>
-        <span className="background-dark px-1">
-          {projects[1].name} : <a href={projects[1].github}> Github </a> :{" "}
-          <a href={projects[1].deployed}>Deployed</a>
-        </span>
+      <div className="text-format project-size">
         <div className="img-project-container">
+          <a href={projects[1].deployed}>
+            <div className="show-desc">
+              <h4 className="desc-text">{projects[1].name}</h4>
+              <p></p>
+              <p className="desc-text">
+                Obscure TVs is an application that uses MySQL, Node.js, and
+                Handlebars.js to create a unique platform for users to share
+                their TVs and reviews!
+              </p>
+            </div>
+          </a>
           <img
-            className="img-project"
-            style={{ borderRadius: "2%" }}
+            className="img-project border-radius-2 image"
             src={projects[1].img}
             alt="obscure-tv-project"
           ></img>
         </div>
       </div>
-      <div className="text-format" style={{ width: "45%" }}>
-        <span className="background-dark px-1">
-          {projects[2].name} : <a href={projects[2].github}> Github </a> :{" "}
-          <a href={projects[2].deployed}>Deployed</a>
-        </span>
+      <div className="text-format project-size">
         <div className="img-project-container">
+          <a href={projects[2].deployed}>
+            <div className="show-desc">
+              <h4 className="desc-text">{projects[2].name}</h4>
+              <p></p>
+              <p className="desc-text">
+                Job Hunter is made with JavaScript, HTML5, and CSS3 to create a
+                unique application for users on the job hunt! The application
+                has two modes of search: Government and General.
+              </p>
+            </div>
+          </a>
           <img
-            className="img-project"
-            style={{ borderRadius: "2%" }}
+            className="img-project border-radius-2 image"
             src={projects[2].img}
             alt="job-hunter-project"
-            onMouseEnter={displayLink}
           ></img>
         </div>
       </div>
-      <div className="text-format" style={{ width: "45%" }}>
-        <span className="background-dark px-1">
-          {projects[3].name} : <a href={projects[3].github}> Github </a> :{" "}
-          <a href={projects[3].deployed}>Deployed</a>
-        </span>
+      <div className="text-format project-size">
         <div className="img-project-container">
+          <a href={projects[0].deployed}>
+            <div className="show-desc">
+              <h4 className="desc-text">{projects[0].name}</h4>
+              <p></p>
+              <p className="desc-text">
+                Deep Thoughts is an application that uses Node.js, GraphQL,
+                MongoDB, and React.js to create an interactive website for
+                people to share their thoughts and opinions on anything.
+              </p>
+            </div>
+          </a>
           <img
-            className="img-project"
-            style={{ borderRadius: "2%" }}
-            src={projects[3].img}
-            alt="tech-blog-project"
-          ></img>
+            className="img-project border-radius-2 image"
+            src={projects[0].img}
+            alt="deep-thoughts-project"
+          />
         </div>
       </div>
-      <div className="text-format" style={{ width: "45%" }}>
-        <span className="background-dark px-1">
-          {projects[4].name} : <a href={projects[4].github}> Github </a> :{" "}
-          <a href={projects[4].deployed}>Deployed</a>
-        </span>
+
+      <div className="text-format project-size">
         <div className="img-project-container">
+          <a href={projects[4].deployed}>
+            <div className="show-desc">
+              <h4 className="desc-text">{projects[4].name}</h4>
+              <p></p>
+              <p className="desc-text">
+                Budget Tracker is a stand-alone application that uses MongoDB,
+                Node.js, HTML5, CSS3, and JavaScript to give users a one stop
+                shop for personalized budgeting inside or outside their home.
+              </p>
+            </div>
+          </a>
           <img
-            className="img-project"
-            style={{ borderRadius: "2%" }}
+            className="img-project border-radius-2 image"
             src={projects[4].img}
             alt="budget-tracker-project"
           ></img>
         </div>
       </div>
-      <div className="text-format" style={{ width: "45%" }}>
-        <span className="background-dark px-1">
-          {projects[5].name} : <a href={projects[5].github}> Github </a> :{" "}
-          <a href={projects[5].deployed}>Deployed</a>
-        </span>
+      <div className="text-format project-size">
         <div className="img-project-container">
+          <a href={projects[5].deployed}>
+            <div className="show-desc">
+              <h4 className="desc-text">{projects[5].name}</h4>
+              <p></p>
+              <p className="desc-text">
+                Note Taker is an application that uses Node.js, JavaScript,
+                HTML5, and CSS3 to give users a web-based notetaking
+                application.
+              </p>
+            </div>
+          </a>
           <img
-            className="img-project"
-            style={{ borderRadius: "2%" }}
+            className="img-project border-radius-2 image"
             src={projects[5].img}
             alt="note-taker-project"
           ></img>
         </div>
       </div>
-      <div className="text-format" style={{ width: "45%" }}>
-        <span className="background-dark px-1">
-          {projects[6].name} : <a href={projects[6].github}> Github </a> :{" "}
-          <a href={projects[6].deployed}>Deployed</a>
-        </span>
+      <div className="text-format project-size">
         <div className="img-project-container">
+          <a href={projects[3].deployed}>
+            <div className="show-desc">
+              <h4 className="desc-text">{projects[3].name}</h4>
+              <p></p>
+              <p className="desc-text">
+                Tech Blog is an application that uses Node.js, MySQL,
+                JavaScript, HTML5, and CSS3 to give users a place to share their
+                thoughts about tech!
+              </p>
+            </div>
+          </a>
           <img
-            className="img-project"
-            style={{ borderRadius: "2%" }}
-            src={projects[6].img}
-            alt="note-taker-project"
+            className="img-project border-radius-2 image"
+            src={projects[3].img}
+            alt="tech-blog-project"
           ></img>
         </div>
       </div>

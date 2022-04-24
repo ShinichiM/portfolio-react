@@ -47,15 +47,14 @@ const Portfolio = () => {
         }
     ];
 
-    return (
-            <div className="h-100-vh" style={{overflow: 'hidden'}}>
-                <img  className="img-background" src="/img/city.jpg" alt="city landscape overhead"></img>
-                <div style={{height: "80vh"}} className="tag-portfolio">
-                    <h1 className="text-format ml-4">Portfolio</h1> 
-                    <Project projects={projects}/>
-                </div>
-            </div>
-    );
+  return (
+    <div className="h-100-vh page-container" style={{ overflow: "hidden" }}>
+      <div style={{ height: "80vh" }} className="tag-portfolio">
+        <h1 className="text-format w-fit-content background-dark mt-0 text-italic px-2">Projects - SM</h1>
+        <Project projects={projects} />
+      </div>
+    </div>
+  );
 };
 
 export default Portfolio;

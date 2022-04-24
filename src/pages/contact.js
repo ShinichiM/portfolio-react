@@ -5,7 +5,7 @@ const Contact = () => {
     // const [ ] = useState();
     return (
         <div style={{overflow: 'hidden'}} className="h-100-vh page-container">
-            <img style={{height: '100%'}} className="img-background" src="/img/contact.jpg" alt="city landscape overhead"></img>
+            {/* <img style={{height: '100%'}} className="img-background" src="/img/contact.jpg" alt="city landscape overhead"></img> */}
             <div style={{width: '95%'}} className="tag">         
                 <div style={{display: 'flex'}} className='justify-space-around'>
                     <div style={{width: '75%', padding: '0'}} >

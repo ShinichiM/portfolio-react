@@ -11,16 +11,16 @@ export const Main = (props) => {
     const { setPage, currentPage } = props;
     const location = useLocation();
     const pathname = location.pathname.split('/')[1];
-    // const [currentPage, setCurrentPage] = useState('');
-    // console.log(pathname.split('/')[1])
-    // console.log(location.pathname); 
+
     console.log(pathname);
     useEffect(() => {
         setPage(pathname)
     })
+
+    // make div container transparent
     return (
-        <div className="w-75 flex-column justify-center background-light">
-            {currentPage === '' ? <Home /> : ''}
+        <div className="main-width flex-column justify-center" style={{backgroundColor: 'transparent'}}>
+            {/* {currentPage === '' ? <Home /> : ''} */}
             {currentPage === 'about-me' ? <AboutMe /> : ''}
             {currentPage === 'contact' ? <Contact /> : ''}
             {currentPage === 'portfolio' ? <Portfolio /> : ''}
