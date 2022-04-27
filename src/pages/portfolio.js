@@ -22,10 +22,10 @@ const Portfolio = () => {
             github: 'https://github.com/ileachy/Job-hunter'
         },
         {
-            name: 'Tech Blog',
-            img: '/img/img-project/tech-blog.jpg',
-            deployed: 'https://tech-glob.herokuapp.com/',
-            github: 'https://github.com/ShinichiM/Tech-Blog'
+            name: 'Book Search Engine',
+            img: '/img/img-project/book-search.jpg',
+            deployed: 'https://sm-book-search.herokuapp.com/',
+            github: 'https://github.com/ShinichiM/book-search-engine'
         },
         {
             name: 'Budget Tracker',
@@ -48,9 +48,10 @@ const Portfolio = () => {
     ];
 
   return (
-    <div className="h-100-vh page-container" style={{ overflow: "hidden" }}>
-      <div style={{ height: "80vh" }} className="tag-portfolio">
-        <h1 className="text-format w-fit-content background-dark mt-0 text-italic px-2">Projects - SM</h1>
+    <div className="h-100-vh page-container background-beige" style={{ overflowY: "scroll" }}>
+{/* style={{ height: "80vh" }} */}
+      <div className="tag-portfolio">
+        <h1 className="text-format w-fit-content mt-0 text-italic px-2">Projects</h1>
         <Project projects={projects} />
       </div>
     </div>

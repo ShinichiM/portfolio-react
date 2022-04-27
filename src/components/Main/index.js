@@ -19,7 +19,7 @@ export const Main = (props) => {
 
     // make div container transparent
     return (
-        <div className="main-width flex-column justify-center" style={{backgroundColor: 'transparent'}}>
+        <div className="main-width flex-column justify-center" >
             {/* {currentPage === '' ? <Home /> : ''} */}
             {currentPage === 'about-me' ? <AboutMe /> : ''}
             {currentPage === 'contact' ? <Contact /> : ''}

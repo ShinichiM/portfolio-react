@@ -37,13 +37,13 @@ export const Header = () => {
             </Link>
           </li>
           <li>
-            <Link className="transition-a" to="/contact">
-              Contact
+            <Link className="transition-a" to="/resume">
+              Skills
             </Link>
           </li>
           <li>
-            <Link className="transition-a" to="/resume">
-              Resume
+            <Link className="transition-a" to="/contact">
+              Contact
             </Link>
           </li>
         </ul>
