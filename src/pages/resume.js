@@ -149,12 +149,6 @@ const Resume = () => {
               <span className="skill-text">Redux</span>
             </div>
           </div>
-
-          {/* 
-          
-
-          
-          */}
         </div>
       </div>
     </div>

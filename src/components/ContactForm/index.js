@@ -26,7 +26,7 @@ export const ContactForm = () => {
       setEmail('');
    }
    return (
-        <div style={{width: '95%'}} className="background-dark">
+        <div style={{width: '95%'}} className="">
            <form style={{}} className="flex-column" onSubmit= {handleSubmit}>
                <label htmlFor="name">Name: </label>
                <input name="name" placeholder="" value={name} onChange={handleNameChange}></input>
