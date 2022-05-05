@@ -16,7 +16,7 @@ const Contact = () => {
           miyakawashi@gmail.com
         </div>
         <div className="contact-item">
-          <a className="mail-container" href="/img/resume/resume_.pdf">
+          <a className="mail-container" href="/img/resume/resume_SM.pdf">
             <img src="/img/img-media/paper.svg" alt="shinichi's resume" />
           </a>
           Resume

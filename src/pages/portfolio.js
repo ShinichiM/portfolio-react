@@ -40,7 +40,7 @@ const Portfolio = () => {
             github: 'https://github.com/ShinichiM/note-taker'
         },
         {
-            name: "Sweeney's Seafood",
+            name: "Sweeney's Seafood Bar & Grill",
             img: '/img/img-project/Sweeneys.jpg',
             deployed: 'https://sweeney-seafood.herokuapp.com/',
             github: 'https://github.com/AdamAlibraheem000/Sweeney-Seafood'

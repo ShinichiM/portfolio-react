@@ -291,6 +291,10 @@ ul {
 .w-25 {
   width: 25%;
 }
+
+.w-10 {
+  width: 10%;
+}
 .w-fit-content {
   width: fit-content;
 }
@@ -1288,6 +1292,17 @@ ul {
   /* z-index: 1000;  */
 }
 
+.font-one-five-vw {
+  font-size: 1.5vw;
+  font-weight: 800;
+  color: #000;
+}
+.font-one-eight-vw {
+  font-size: 1.8vw;
+  color: #000;
+  font-weight: 800;
+}
+
 .tag-portfolio {
   position: absolute;
   /* top: 5%; */
@@ -1329,6 +1344,20 @@ ul {
 .social-media {
   justify-content: space-between;
 }
+
+.project-socials {
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.project-socials li {
+  width: 15%;
+}
+
+
+/* .production {
+  width: 10%;
+} */
 /* ---------------------------------------------------------------------------------------------------------------------------------------------- */
 
 .card {
@@ -1355,12 +1384,16 @@ ul {
 
 .card-item {
   width: 30%;
-  align-items: center;
+  /* align-items: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card-img {
   width: 70%;
   align-items: center;
+
 }
 .inner {
   height: 50vh;
