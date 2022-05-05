@@ -26,7 +26,8 @@
 <br />
 <div align="center">
   <a href="https://github/shinichiM/portfolio-react">
-    <img src="https://github.com/ShinichiM/portfolio-react/tree/main/public/img/portfolio-ss.jpg" alt="Logo" width="80" height="80">
+    <img width="80" alt="image" src="https://user-images.githubusercontent.com/62361626/166833097-89356e0b-ab12-4a91-800c-27aee7069b2b.png">
+
   </a>
 
   <h3 align="center">Portfolio: Shinichi Miyakawa</h3>
@@ -67,10 +68,14 @@
 
 
 
+
+
+<p align="center">
+   <img width="75%"  alt="image" src="https://user-images.githubusercontent.com/62361626/166832071-d8460bec-51bc-4f27-898a-4ea46ac7d7df.png">
+</P>
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 A professional portfolio to showcase the projects I've completed throughout the past year. The projects listed here focus mainly on the fundamentals of Web Development. Some of them use static HTML/CSS and Vanilla JavaScript or JQuery. Others utilize frontend frameworks such as handlebars.js or React, and use backend technologies like MySQL and MongoDB. I had a lot of fun with these, so I hope you enjoy!
 
